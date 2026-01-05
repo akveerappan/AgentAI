@@ -14,4 +14,5 @@ if __name__ == "__main__":
         symbol = input("\nEnter stock symbol (or 'quit'): ").upper()
         if symbol == 'QUIT':
             break
+        print('Test')
         print(get_stock_price(symbol))
